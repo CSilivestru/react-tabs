@@ -292,6 +292,7 @@ export default class UncontrolledTabs extends Component {
       ...attributes
     } = this.props;
 
+    console.log(this.props);
     return (
       <div
         {...attributes}
